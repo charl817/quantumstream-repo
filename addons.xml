@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+  <addon id="repository.quantumstream"
+         name="QuantumStream Repository"
+         version="1.0.0"
+         provider-name="QuantumStream">
+
+    <extension point="xbmc.addon.repository"
+               name="QuantumStream Repo">
+        <info compressed="false">
+            https://charl817.github.io/quantumstream-repo/addons.xml
+        </info>
+        <checksum>
+            https://charl817.github.io/quantumstream-repo/addons.xml.md5
+        </checksum>
+        <datadir zip="true">
+            https://charl817.github.io/quantumstream-repo/zips/
+        </datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>QuantumStream Kodi Repository</summary>
+        <description>
+            Official QuantumStream repository for Kodi add-ons.
+        </description>
+        <platform>all</platform>
+    </extension>
+
+  </addon>
+
+</addons>
